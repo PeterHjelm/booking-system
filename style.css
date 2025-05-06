@@ -1,0 +1,8 @@
+.employee-list {
+    display: flex;
+}
+
+.employee-list > p {
+    background-color: aquamarine;
+    font-style: italic;
+}
