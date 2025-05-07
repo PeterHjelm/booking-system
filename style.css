@@ -15,13 +15,13 @@ h1 {
     padding-left: 1.5rem;
 }
 
-.employee-overview > p{
+.employee-overview {
     display: flex;
     align-items: center;
     border: 1px solid black;
 }
 
-.employee-overview > p > img {
+.employee-overview > img {
     width: 34px;
     height: 34px;
     margin-inline: 0.5rem;

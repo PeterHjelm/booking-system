@@ -21,7 +21,11 @@ export default {
     mounted() {
         this.getFirstEmployee()
     },
-    template: `<div class="employee-overview">
-                    <p v-for="em in employees"><img src="../img/user.png" alt="User imag"/><div><span class="employee-profession">{{ em.professions.join(' & ')}}</span><br><span class="employee-name">{{ em.name }}</span></div></p>
+    template: `<div class="employee-overview" v-for="em in employees">
+                    <img src="../img/user.png" alt="User imag"/>
+                    <div>
+                        <span class="employee-profession">{{ em.professions.join(' & ')}}</span><br>
+                        <span class="employee-name">{{ em.name }}</span>
+                    </div>
                 </div>`
 }
