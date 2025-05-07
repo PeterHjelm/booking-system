@@ -10,16 +10,26 @@ body {
 
 h1 {
     margin:0;
-    font-size:x-large;
+    font-size: large;
     padding-block: 0.7rem;
     padding-left: 1.5rem;
 }
 
-.employee-list {
+.employee-overview > p{
     display: flex;
+    align-items: center;
+    border: 1px solid black;
 }
 
-.employee-list > p {
-    background-color: aquamarine;
-    font-style: italic;
+.employee-overview > p > img {
+    width: 34px;
+    height: 34px;
+    margin-inline: 0.5rem;
+}
+
+.employee-profession {
+    font-size:small;
+}
+.employee-name {
+    font-weight: bold;
 }
