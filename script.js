@@ -26,7 +26,11 @@ const app = {
     mounted() {
 
     },
-    template: `<div class="employee-list"> 
+    template: `
+        <div class="header">
+            <h1>Svenssons Hantverk AB</h1>
+        </div>
+    <div class="employee-list"> 
         <input type="button" value="Name" @click="getFirstEmployee">
         <div>
             <p>{{ name }}</p>
