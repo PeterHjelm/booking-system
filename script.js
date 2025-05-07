@@ -21,6 +21,7 @@ const app = {
     },
     
     created() {
+        this.getFirstEmployee()
         
     },
     mounted() {
@@ -31,7 +32,6 @@ const app = {
             <h1>Svenssons Hantverk AB</h1>
         </div>
     <div class="employee-list"> 
-        <input type="button" value="Name" @click="getFirstEmployee">
         <div>
             <p>{{ name }}</p>
             <p v-for="prof in professions">{{ prof }}</p>
