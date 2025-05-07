@@ -1,3 +1,6 @@
+import EmployeeOverview from "./components/EmployeeOverview.js"
+
+
 const app = {
     data() {
         return {
@@ -41,4 +44,5 @@ const app = {
     
 }
 
-Vue.createApp(app).mount("#app")
+const vueApp = Vue.createApp(app)
+vueApp.mount("#app")
