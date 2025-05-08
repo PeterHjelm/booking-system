@@ -1,5 +1,5 @@
 /* Getting data of all staff members */
-const UserService = {
+const EmployeeService = {
     async getUsers() {
         const resp = await fetch("https://yrgo-web-services.netlify.app/bookings")
         if(resp.ok) {
@@ -8,6 +8,6 @@ const UserService = {
         }
     }
 }
-Object.freeze(UserService)
+Object.freeze(EmployeeService)
 
-export default UserService
+export default EmployeeService
