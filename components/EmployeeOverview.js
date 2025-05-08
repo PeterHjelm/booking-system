@@ -1,6 +1,4 @@
 /* Will import both EmployeeCard and ScheduleStatus */
-/* import UserService from "../services/UserService.js"; */
-/* import EmployeeCard from "./EmployeeCard.js"; */
 
 export default {
     data() {
